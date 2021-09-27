@@ -1,49 +1,129 @@
-
-.inline-block{
-    display: inline-block;
-    vertical-align:top;
+.hero-heading {
+    margin-bottom: 0px;
+    color: #667e6d;
+    font-size: 30px;
+    font-weight:bold;
+    font-family: Cormorant, sans-serif;
+    font-style:italic;
 }
 
 .logo{
-    width:23%;
+    width: 40px;
+    height:auto;
     padding:1%;
-    text-align: center;
+    text-align:center;
 }
 
 #my-picture{
-    width:50%;
+    position: right;
+    left: 0 px;
+    top: 0px;
+    right: 0 px;
+    bottom: 0px;
+    width: 45%;
+    height: auto;
+    margin:auto;
+    clear:none;
+    background: color #f7fbf4;
+    object-fit:cover;
 }
+
+.navigation{
+    display:grid;
+    grid-template-columns: 6fr 1fr 1fr 1fr 1fr;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    gap: 30px;
+    align-content: center;
+}
+
 nav{
    width:73%;
-   padding: 1%;
+   padding:0%;
+   margin: 0%;
 }
 
 ul{
     width:50%;
     margin-left: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#252531;
+    display: block;
+    float: right;
+    padding: 5px;
+    
+}
+
+li{
+   float:right;
+    display: block;
+    padding: 10px;
+
 }
 
 .heroimg{
     height: 600px;
-    padding: 25px;
+    padding: 20px;
+    color: red;
+    float: center;
+    
 }
 
 .content{
     width:500px;
     margin: 0 auto;
+    margin-bottom:30px;
+    font-family: Roboto, sans-serif;
 }
 
+button{
+    position:relative;
+    display:inline-block;
+    overflow:hidden;
+    height:40px;
+    padding:13px 24px;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    border-radius: 0px;
+    background-color:#667e6d;
+    font-size: 16px;
+    opacity: 1;
+    transition: box-shadow 400ms ease, color 400ms ease, background-color 400ms 
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    text-align:left;
+    letter-spacing: 0.8px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+h1{
+    text-align: center;
+}
+
+
+
 footer{
-    background-color: #373738;
-    padding: 10px;
+    background-color: #667e6d;
+    text-align: center;
+    padding: 100px;
+    
 }
 
 footer ul{
     display:inline-block;
-    vertical-align: top;
+    vertical-align: bottom;
+    
 }
 
 footer li{
-    padding:50px;
-    color:#FFE8E8;
+    padding: 10px;
+    color:black;
+
+   
 }
